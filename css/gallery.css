@@ -1,0 +1,118 @@
+.gallery {
+  text-align: left;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 50px auto;
+  margin-left: 30px;
+  border-radius: 20px;
+  margin-right: 30px;
+}
+
+
+
+.gallery h1 {
+  text-align: center;
+  padding: 30px;
+}
+
+@media (max-width: 1160px) {
+  .gallery h1 {
+    font-size: 35px;
+  }
+}
+
+.gallery .grid-container {
+  justify-content: center;
+  font-family: "Alata", sans-serif;
+  padding: 0 20px;
+  display: flex;
+}
+
+@media (max-width: 600px) {
+  .gallery .grid-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.gallery .grid-container .item-wrap {
+  text-align: center;
+}
+
+.gallery .grid-container .item-wrap .item {
+  color: black;
+  justify-content: center;
+  align-items: center;
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
+  height: 300px;
+  box-shadow: 0 0 12px 0px rgba(0, 0, 0, 0.9);
+  width: 300px;
+  margin: 40px;
+  position: relative;
+  overflow: hidden;
+  
+}
+
+@media (max-width: 1245px) {
+  .gallery .grid-container .item-wrap .item {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media (max-width: 880px) {
+  .gallery .grid-container .item-wrap .item {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+@media (max-width: 700px) {
+  .gallery .grid-container .item-wrap .item {
+    margin: 20px;
+  }
+}
+
+@media (max-width: 550px) {
+  .gallery .grid-container .item-wrap .item {
+    flex-direction: column;
+    margin: 20px auto;
+    width: 170px;
+    height: 170px;
+  }
+}
+
+
+
+
+.gallery .grid-container .item-wrap .item-1 {
+  background-image: url("../images/VISUALIDENTITY.png");
+  background-position: fill;
+  background-size: 100%;
+}
+
+.gallery .grid-container .item-wrap .item-1:hover {
+  background-size: 120%;
+  background-position: center;
+}
+
+
+
+.gallery .grid-container .item-wrap .item-2 {
+  background-image: url("../images/logos.png");
+  background-position: center;
+  background: fill;
+  background-size: 100%;
+}
+
+.gallery .grid-container .item-wrap .item-2:hover {
+  background-size: 120%;
+  background-position: center;
+}
+
+
+
+
+
+
