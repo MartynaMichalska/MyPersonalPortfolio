@@ -93,7 +93,7 @@
 
 @media (max-width: 650px) {
   .main-header nav ul li {
-    margin: 0;
+    margin: 20px;
   }
 }
 
